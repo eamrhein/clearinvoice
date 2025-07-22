@@ -1,0 +1,11 @@
+<footer class="container-fluid bg-light" style="padding: 1.5rem 0; border-top: 1px solid #e0e0e0;">
+    <div class="container" style="text-align: center;">
+        <p style="margin-bottom: 0.5rem;">&copy; {{ Year }} ClearInvoice. All rights reserved.</p>
+        <nav>
+            <ul style="display: inline-flex; gap: 1rem; list-style: none; padding: 0; margin: 0;">
+                <li><a href="/about" class="secondary">About</a></li>
+                <li><a href="/contact" class="secondary">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>

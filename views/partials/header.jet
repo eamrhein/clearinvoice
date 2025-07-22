@@ -1,0 +1,48 @@
+<header>
+    <nav class="container-fluid">
+        <ul>
+            <li>
+                <a href="/" class="contrast" style="font-weight:bold;font-size:1.5rem;">ClearInvoice</a>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="/invoices">Invoices</a></li>
+            <li><a href="/clients">Clients</a></li>
+            <li><a href="/settings">Settings</a></li>
+            <li><a href="/logout" class="secondary">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+<style>
+    nav.container-fluid {
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    nav ul:first-child {
+        gap: 0;
+    }
+    @media (max-width: 600px) {
+        nav.container-fluid {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        nav ul {
+            flex-direction: column;
+            gap: 0.5rem;
+            width: 100%;
+        }
+        nav ul:first-child {
+            margin-bottom: 1rem;
+        }
+    }
+</style>
